@@ -1,0 +1,175 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-family: "Times new roman", Times, serif;
+  font-style: italic;
+  font-style: bold;
+  font-size: 40px;
+  color: #778899;
+}
+
+.bar-titles {
+  font-family: "Times new roman", Times, serif;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.bar-subtitles {
+  font-family: "Times new roman", Times, serif;
+  font-style: italic;
+  font-size: 18px;
+  color: black;
+}
+
+h11 {
+  font-family: "Times new roman", Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 17px;
+  color: #778899;
+}
+h2 {
+  font-family: "Times new roman", Times, serif;
+  font-size: 25px;
+}
+
+h6 {
+  font-family: "Times new roman", Times, serif;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+h4 {
+  font-family: "Times new roman", Times, serif;
+  color: darkred;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.aboutproject {
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #5F9EA0;
+    padding: 3px;
+}
+.ContextEnergy {
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #5F9EA0;
+    padding: 3px;
+}
+.Calendar {
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 3px;
+    background-color: #5F9EA0;
+}
+
+.checkboxes {
+  background: none;
+  padding: 8px;
+  position: relative;
+  right: 15px;
+  top: 6px;
+  bottom: 6px;
+  z-index: 20000;
+}
+.user-box {
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  padding: 0px;
+  background: #5F9EA0;
+  height: 12vh;
+  overflow-y: auto; 
+  }
+ 
+.cartomap {
+  border-style: solid;
+  border-color: black;
+  border-width: 8px;
+}
+
+
+#map {
+  height: 100vh;
+  width: 100%;
+  float: left;
+  z-index: -1;
+}
+
+.right-sidebar{
+    height: 60%;
+    width: 30%;
+    position: absolute;
+    opacity: 1;
+    right: 1px;
+    margin-top: 0px;
+    display: inline-block;
+    background-color: rgba(108, 122, 137, 0.7);
+    padding: 20px;
+    font-size: 1.6em;
+    z-index: 30;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    overflow-y: auto;
+}
+
+.map-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%; 
+}
+
+.introduction {
+margin-left: 124px;
+margin-top: 4px;
+font-size: 18px;
+}
+
+.Sidebox {
+position: absolute;
+right: 2%;
+width: 20%;
+padding: 10px;
+border: black;
+color: white;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+  background: #5F9EA0;
+}
+
+.entry {
+  position: absolute;
+ left: 40%;
+}
+
+
+.user-logo {
+float: left;
+height: 12vh;
+}
+
+.form {
+position: relative;
+}
+
+.transition {
+width: 70%;
+}
+

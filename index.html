@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <header>  </header>
+      
+    <title>Amsterdam Energy Collective</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Load Leaflet CSS -->
+    <link href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" rel="stylesheet">
+    
+     <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+      
+  </head>  
+  <body>
+    <h1>Amsterdam Energy Collective</h1>
+  
+    <nav> 
+      <a class="aboutproject" href="About.html" target="_blank">About this project</a>
+      <a class="ContextEnergy" href="Context.html" target="_blank">Energy Context</a>
+      <a class="Calendar" href="https://ndsmenergie.nl/" target="_blank">Calendar</a>
+    </nav>
+    
+    <br />
+    
+    <div class="user-box">
+      <img class="user-logo" src="https://cdn.glitch.com/f48f6080-d092-461f-9000-01613dbb867d%2F02025.png?1554065499308"> 
+    <div class="introduction"> 
+    Welcome back to the Amsterdam Energy Collective Platform, 02025! Click here to see how your projects are doing. <br />
+      Also, you have 1 unread message waiting for you, which you can find here.
+      <br /> Did you know that there are 2 new initiatives with similar tags in your neighborhood? You can find through this link, or look for them on the map!
+    <br /> Are you ready to collaborate?  <input type="checkbox">
+  </div>
+      </div>
+    
+    <div class="map-wrapper">  
+      
+  <div id="map"></div>
+  <div class="right-sidebar" style="height: 94vh;">
+        <div class="bar-titles">
+          Selectors      
+        </div>
+        <div class="bar-subtitles">
+        Use the various selectors to sort through through the data  
+          
+          <div class="checkboxes">
+        <div>
+          <label>
+            <input type="checkbox" class="North-checkbox" />
+            North
+          </label>
+        </div>
+            <div>
+          <label>
+            <input type="checkbox" class="East-checkbox" />
+            East
+          </label>
+        </div>
+            <div>
+          <label>
+            <input type="checkbox" class="South-checkbox" />
+            South
+          </label>
+        </div>
+            <div>
+          <label>
+            <input type="checkbox" class="West-checkbox" />
+            West
+          </label>
+        </div>
+            <div>
+          <label>
+            <input type="checkbox" class="New-West-checkbox" />
+            New-West
+          </label>
+        </div>
+        <div>
+          <label>
+            <input type="checkbox" class="Center-checkbox" />
+            Center
+          </label>
+        </div>
+        <div>
+          <label>
+            <input type="checkbox" class="South-West-checkbox" />
+            South-West
+          </label>
+        </div>
+            <div>
+          <label>
+            <input type="checkbox" class="Westpoort-checkbox" />
+            Westpoort
+          </label>
+        </div>
+      </div>     
+                    
+        </div>
+        <div class="bar-titles">
+           Tags      
+        </div>
+        <div class="bar-subtitles">
+        You are searching based on the following tags:  
+        </div>
+        <div>
+          
+          <img src="https://cdn.glitch.com/f48f6080-d092-461f-9000-01613dbb867d%2FGoals.JPG?1554164095339" style="width: 60%">
+    </div>
+    
+    
+        <div class="bar-titles">
+           Metrics      
+        </div>
+        <div class="bar-subtitles">
+        This graph shows the number of active initiatives working towards your selected goals over the last six years  
+        </div>
+        <br />
+        <a href="https.google.com"> <img src="https://cdn.glitch.com/f48f6080-d092-461f-9000-01613dbb867d%2FNumber%20of%20Cooperative%20solar%20projects.JPG?1554163752385" style="width: 85%">
+        </a>
+        <br />
+    
+        <div class="bar-titles">
+         Local Initiatives Indicator
+        </div>
+    <div class="bar-subtitles">
+        <div class="sidebar-feature-content"></div>
+    </div>
+      
+  </div>
+    
+      
+    </div>
+    
+    
+      <!-- Load Leaflet and Carto libraries -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://libs.cartocdn.com/carto.js/v4.1.11/carto.min.js"></script>
+ 
+     
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js"></script>
+  
+   
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+   
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
